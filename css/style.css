@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+#app {  
+  width: 100%;
+  margin-top: 5px;
+}
+
+.cf {
+  transition: background-image 1s ease-in-out;
+  background-image: url("../bg/citra_1.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.cf:hover{
+  background-image: url("../bg/citra_2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
